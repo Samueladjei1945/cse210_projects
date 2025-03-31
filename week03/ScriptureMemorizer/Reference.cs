@@ -5,6 +5,10 @@ public class Reference
     private int _startVerse;
     private int _endVerse;
 
+<<<<<<< HEAD
+=======
+    // Constructor for a single verse
+>>>>>>> 0092104ba04b871768374691eb0099207c7025d2
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
@@ -13,6 +17,10 @@ public class Reference
         _endVerse = verse;
     }
 
+<<<<<<< HEAD
+=======
+    // Constructor for verse range
+>>>>>>> 0092104ba04b871768374691eb0099207c7025d2
     public Reference(string book, int chapter, int startVerse, int endVerse)
     {
         _book = book;
@@ -29,4 +37,8 @@ public class Reference
         }
         return $"{_book} {_chapter}:{_startVerse}-{_endVerse}";
     }
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 0092104ba04b871768374691eb0099207c7025d2
